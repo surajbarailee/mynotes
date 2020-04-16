@@ -1,0 +1,588 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Domain Name Server</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="domain-name-server.html">
+            Domain Name Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="dhcp.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="fileserver-and-webserver.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            Domain Name Server
+          </h2>
+          <p>
+            The Domain Name System is a hierarchical and decentralized naming
+            system for computers, services, or other resources connected to the
+            Internet or a private network. It associates various information
+            with domain names assigned to each of the participating entities.
+          </p>
+          <p><strong>Working Procedures of DNS:</strong></p>
+          <ol>
+            <li>
+              When your computer need to connect with a host on the Internet
+              (e.g. MyGreatName.com), you only need to enter the Domain Name
+              (e.g. MyGreatName.com) in the URL of browser. Your computer will
+              then contact the configured or default Name Servers (usually your
+              ISP Name Server), asking for the IP Address of the host (e.g
+              MyGreatName.com).
+            </li>
+            <li>
+              If your ISP Name Server has the information of the IP Address of
+              the query host, it will tell your computer immediately.
+            </li>
+            <li>
+              Assume that your ISP Name Server do not have the information of
+              MyGreatName.com. Your ISP Name Server will ask the DNS Root Name
+              Server immediately the Name Server that has the information of
+              MyGreatName.com.<br />
+              Actually all Name Servers will download and install a file from
+              the FTP server of interNIC. The file is called "named.cache" or
+              "named.root". This file has the IP Addresses of ALL Root Name
+              Servers. <br />
+              Root Name Servers have all of information of Autoritative Domain
+              Name Servers for the top level domain names (for example: .com,
+              .org, .net, .com.hk, etc ..)&nbsp;
+            </li>
+            <li>
+              When your ISP Name Server do not have the IP address information
+              of MyGreatName.com, it will check the named.cache file and ask for
+              help from the Root NameServer. If the first Root Name Server is
+              out of order or do not have response, your ISP Name Server will
+              ask the second Root Name server.
+            </li>
+            <li>
+              Root Name Server will then tell your ISP Name Server the
+              authoritative Name Server of MyGreatName.com are 212.69.192.10
+              (Primary Name Server) and 212.69.192.11 (Secondary Name
+              Server).&nbsp;
+            </li>
+            <li>
+              Your ISP Name Server now has the IP Address of the Authoritative
+              Name Server of MyGreatName.com. Your ISP Name Server will then
+              contact the Authoritative Name Server of MyGreatName.com
+              (212.69.192.10). The Authoritative Name Server of MyGreatName.com
+              will then check and confirm the information of MyGreatName.com. It
+              then tell the IP Address of MyGreatName.com (212.69.204.148) to
+              your ISP.
+            </li>
+            <li>
+              Your ISP Name Server now has the IP Address of MyGreatName.com, it
+              will tell your computer immediately.
+            </li>
+            <li>
+              Once your computer get the IP Address of MyGreatName.com, your
+              computer can then communicate with MyGreatName.com.
+            </li>
+          </ol>
+          <p>&nbsp;</p>
+          <h2>DNS Types: 3 DNS Query Types</h2>
+          <p>There are three types of queries in the DNS system:</p>
+          <h3>Recursive Query</h3>
+          <p>
+            In a recursive query, a DNS client provides a hostname, and the DNS
+            Resolver &ldquo;must&rdquo; provide an answer&mdash;it responds with
+            either a relevant resource record, or an error message if it can't
+            be found. The resolver starts a recursive query process, starting
+            from the DNS Root Server, until it finds the Authoritative Name
+            Server (for more on Authoritative Name Servers see DNS Server Types
+            below) that holds the IP address and other information for the
+            requested hostname.
+          </p>
+          <h3>Iterative Query</h3>
+          <p>
+            In an iterative query, a DNS client provides a hostname, and the DNS
+            Resolver returns the best answer it can. If the DNS resolver has the
+            relevant DNS records in its cache, it returns them. If not, it
+            refers the DNS client to the Root Server, or another Authoritative
+            Name Server which is nearest to the required DNS zone. The DNS
+            client must then repeat the query directly against the DNS server it
+            was referred to.
+          </p>
+          <h3>Non-Recursive Query</h3>
+          <p>
+            A non-recursive query is a query in which the DNS Resolver already
+            knows the answer. It either immediately returns a DNS record because
+            it already stores it in local cache, or queries a DNS Name Server
+            which is authoritative for the record, meaning it definitely holds
+            the correct IP for that hostname. In both cases, there is no need
+            for additional rounds of queries (like in recursive or iterative
+            queries). Rather, a response is immediately returned to the client.
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2>DNS Types: 3 Types of DNS Servers</h2>
+          <p>
+            The following are the most common DNS server types that are used to
+            resolve hostnames into IP addresses.
+          </p>
+          <h3>DNS Resolver</h3>
+          <p>
+            A DNS resolver (recursive resolver), is designed to receive DNS
+            queries, which include a human-readable hostname such as
+            &ldquo;www.example.com&rdquo;, and is responsible for tracking the
+            IP address for that hostname.
+          </p>
+          <h3>DNS Root Server</h3>
+          <p>
+            The root server is the first step in the journey from hostname to IP
+            address. The DNS Root Server extracts the Top Level Domain (TLD)
+            from the user&rsquo;s query &mdash; for example,
+            www.example.com&nbsp;&mdash;<strong>&nbsp;</strong>and provides
+            details for the&nbsp;<strong>.com</strong>&nbsp;TLD Name Server. In
+            turn, that server will provide details for domains with the .com DNS
+            zone, including &ldquo;example.com&rdquo;.
+          </p>
+          <p>
+            There are&nbsp;<a
+              href="https://en.wikipedia.org/wiki/Root_name_server"
+              >13 root servers worldwide</a
+            >, indicated by the
+            letters&nbsp;<strong>A</strong>&nbsp;through&nbsp;<strong>M</strong>,
+            operated by organizations like the Internet Systems Consortium,
+            Verisign, ICANN, the University of Maryland, and the U.S. Army
+            Research Lab.
+          </p>
+          <h3>Authoritative DNS Server</h3>
+          <p>
+            Higher level servers in the DNS hierarchy define which DNS server is
+            the &ldquo;authoritative&rdquo; name server for a specific hostname,
+            meaning that it holds the up-to-date information for that hostname.
+          </p>
+          <p>
+            The Authoritative Name Server is the last stop in the name server
+            query&mdash;it takes the hostname and returns the correct IP address
+            to the DNS Resolver (or if it cannot find the domain, returns the
+            message NXDOMAIN).
+          </p>
+          <h2>
+            <br />
+            DNS Types: 10 Top DNS Record Types
+          </h2>
+          <p>
+            DNS servers create a DNS record to provide important information
+            about a domain or hostname, particularly its current IP address. The
+            most common DNS record types are:
+          </p>
+          <ul>
+            <li>
+              <strong>Address Mapping record (A Record)&mdash;</strong>also
+              known as a DNS host record, stores a hostname and its
+              corresponding IPv4 address.
+            </li>
+            <li>
+              <strong>IP Version 6 Address record (AAAA Record)&mdash;</strong
+              >stores a hostname and its corresponding IPv6 address.
+            </li>
+            <li>
+              <strong>Canonical Name record (CNAME Record)&mdash;</strong>can be
+              used to alias a hostname to another hostname. When a DNS client
+              requests a record that contains a CNAME, which points to another
+              hostname, the DNS resolution process is repeated with the new
+              hostname.
+            </li>
+            <li>
+              <strong>Mail exchanger record (MX Record)&mdash;</strong>specifies
+              an SMTP email server for the domain, used to route outgoing emails
+              to an email server.
+            </li>
+            <li>
+              <strong>Name Server records (NS Record)&mdash;</strong>specifies
+              that a DNS Zone, such as &ldquo;example.com&rdquo; is delegated to
+              a specific Authoritative Name Server, and provides the address of
+              the name server.
+            </li>
+            <li>
+              <strong>Reverse-lookup Pointer records (PTR Record)&mdash;</strong
+              >allows a DNS resolver to provide an IP address and receive a
+              hostname (reverse DNS lookup).
+            </li>
+            <li>
+              <strong>Certificate record (CERT Record)&mdash;</strong>stores
+              encryption certificates&mdash;PKIX, SPKI, PGP, and so on.
+            </li>
+            <li>
+              <strong>Service Location (SRV Record)&mdash;</strong>a service
+              location record, like MX but for other communication protocols.
+            </li>
+            <li>
+              <strong>Text Record (TXT Record)&mdash;</strong>typically carries
+              machine-readable data such as opportunistic encryption, sender
+              policy framework, DKIM, DMARC, etc.
+            </li>
+            <li>
+              <strong>Start of Authority (SOA Record)&mdash;</strong>this record
+              appears at the beginning of a DNS zone file, and indicates the
+              Authoritative Name Server for the current DNS zone, contact
+              details for the domain administrator, domain serial number, and
+              information on how frequently DNS information for this zone should
+              be refreshed
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+          <h2>Dynamic DNS</h2>
+          <p>
+            <strong>Dynamic DNS</strong> is a DNS service, which provides the
+            option to change the IP address of one or multiple DNS records
+            automatically when the IP address of your device is changed
+            dynamically by the internet provider.<br />
+            <br />
+            The service is also called DDNS or Dyn DNS in technical jargon.
+          </p>
+          <p>
+            Dynamic DNS, also known as DDNS, solves the problem of ever changing
+            residential IP addresses by associating your address with a
+            consistent domain name without the need to buy a pricey static IP.
+          </p>
+          <p>
+            Having a home IP address is not as simple as having a business IP
+            address. When you become a residential customer of an ISP, they
+            provide you with an IP address so you can access the internet from
+            your home. However, these dynamic IP addresses frequently change, as
+            the ISP manages their own online systems. This makes it difficult to
+            utilize your residential IP address with other services (webcam,
+            security camera, thermostat, etc.) as the address continues to
+            change without notice.Thankfully, Dynamic DNS can help by assigning
+            a custom domain name to your home IP address that will update
+            automatically as your home IP continues to change.
+          </p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="dhcp.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="fileserver-and-webserver.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(850);
+  </script>
+</html>

@@ -1,0 +1,541 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Storage Area Network</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="small-computer-system-interface.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="storage-fault-tolerance-and-raid.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            SAN(Storage Area Network)
+          </h2>
+
+          <p>
+            A Storage Area Network (SAN) is a specialized, high-speed network
+            that provides block-level network access to storage. SANs are
+            typically composed of hosts, switches, storage elements, and storage
+            devices that are interconnected using a variety of technologies,
+            topologies, and protocols. SANs are often used to:
+          </p>
+          <ul>
+            <li>
+              Improve application availability (e.g., multiple data paths)
+            </li>
+            <li>
+              Enhance application performance (e.g., off-load storage functions,
+              segregate networks, etc.)
+            </li>
+            <li>
+              Increase storage utilization and effectiveness (e.g., consolidate
+              storage resources, provide tiered storage, etc.), and improve data
+              protection and security.
+            </li>
+            <li>
+              SANs also typically play an important role in an organization's
+              Business Continuity Management (BCM) activities.
+            </li>
+          </ul>
+          <p>
+            A SAN presents storage devices to a host such that the storage
+            appears to be locally attached. This simplified presentation of
+            storage to a host is accomplished through the use of different types
+            of virtualization.
+          </p>
+          <div class="image-div">
+            <img src="./resources/nas-vs-san.jpg" />
+          </div>
+          <p>The most common SAN protocols are:</p>
+
+          <p>
+            <span style="text-decoration: underline;"
+              ><b>Fiber Channel protocol</b></span
+            >
+          </p>
+          <p>
+            Fibre Channel is a high-speed networking technology primarily used
+            for transmitting data among data centers, computer servers, switches
+            and storage at data rates of up to <b>128 Gbps</b>. It was developed
+            to overcome the shortcomings of the Small Computer System Interface
+            (SCSI) by filling the need for a reliable and scalable
+            high-throughput and low-latency protocol.
+          </p>
+          <p>
+            Fibre Channel is especially suited for connecting servers to shared
+            storage devices and interconnecting storage controllers and drives.
+            The Fibre Channel interface was created for storage area networks
+            (SANs).Fibre Channel devices can be as far as10 kilometers apart
+          </p>
+          <p>Some Fibre Channel characteristics are:</p>
+          <ul>
+            <li>Performance from 266 megabits/second to 16 gigabits/second</li>
+            <li>
+              Support both optical and copper media, with distances up to
+              10&nbsp;km.
+            </li>
+            <li>
+              Small connectors sfp are most common.(sfp -small factor pluggable
+              transceiver)
+            </li>
+            <li>High-bandwidth utilisation with distance insensitivity</li>
+            <li>
+              Support for multiple cost/performance levels, from small systems
+              to supercomputers
+            </li>
+            <li>
+              Ability to carry multiple existing interface command sets,
+              including IP,SCSI,IPI, HIPPI-FP, and audio/video.
+            </li>
+          </ul>
+          <p>Fibre Channel consists of the following layers:</p>
+          <ul>
+            <li>FC-0 -- The interface to the physical media</li>
+            <li>
+              FC-1 -- The encoding and decoding of data and out-of-band physical
+              link control information for transmission over the physical media
+            </li>
+            <li>
+              FC-2 -- The transfer of frames, sequences and exchanges comprising
+              protocol information units.
+            </li>
+            <li>
+              FC-3 -- Common services required for advanced features such as
+              striping, hunt group andmulticast.
+            </li>
+            <li>
+              FC-4 -- Application interfaces that can execute over Fibre Channel
+              such as the Fibre Channel Protocol for SCSI(FCS).
+            </li>
+          </ul>
+          <p>
+            Fibre Channel network topologies&nbsp; consist of the following:
+          </p>
+          <ul>
+            <li>
+              Arbitrated Group-A series of N_PORTs connected together in
+              daisy-chain fashion.
+            </li>
+            <li>Switched Fabric-A network consisting of switching elements.</li>
+            <li>
+              Mixed Fabric&mdash;A network consisting of switches and
+              "fabric-attached" loops. A loop-attached N_PORT (NL_PORT) is
+              connected to the loop through an L_PORT and accesses the fabric by
+              way of an FL_PORT.
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>
+            <span style="text-decoration: underline;"
+              ><b>iSCSI (Internet Small Computer System Interface)</b></span
+            >
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            iSCSI is a transport layer protocol that describes how Small
+            Computer System Interface ( SCSI) packets should be transported over
+            a TCP/IP network.
+          </p>
+          <p>
+            iSCSI, which stands for Internet Small Computer System Interface,
+            works on top of the Transport Control Protocol (TCP)and allows the
+            SCSI command to be sent end-to-end over local-area networks (LANs),
+            wide-area networks (WANs) or the Internet.
+          </p>
+          <p><b>How ISCSI works</b></p>
+          <p>
+            iSCSI works by transporting block-level data between an iSCSI
+            initiator on a server and an&nbsp; iSCSI target on a storage device.
+            The iSCSI protocol encapsulates SCSI commands and assembles the data
+            in packets for the TCP/IP layer. Packets are sent over the network
+            using a point-to-point connection. Upon arrival, the iSCSI protocol
+            disassembles the packets, separating the SCSI commands so the
+            operating system (OS) will see the storage as a local SCSI device
+            that can be formatted as usual.
+          </p>
+          <p>
+            <span style="text-decoration: underline;"
+              ><b>Fiber Channel Over Ethernet</b></span
+            >
+          </p>
+          <p>
+            <b>FCoE </b>is a computer network technology that encapsulates Fiber
+            channel frames over Ethernet networks. This allows Fibre Channel to
+            use 10 Gigabit Ethernet networks (or higher speeds) while preserving
+            the Fibre Channel protocol. FCoE transports Fibre Channel directly
+            over Ethernet while being independent of the Ethernet forwarding
+            scheme. The FCoE protocol specification replaces the FC0 and FC1
+            layers of the Fibre Channel stack with Ethernet.
+          </p>
+          <p>
+            Fibre Channel required three primary extensions to deliver the
+            capabilities of Fibre Channel over Ethernet networks:
+          </p>
+          <ul>
+            <li>
+              Encapsulation of native Fibre Channel frames into Ethernet Frames.
+            </li>
+            <li>
+              Extensions to the Ethernet protocol itself to enable an Ethernet
+              fabric in which frames are not routinely lost during periods of
+              congestion.
+            </li>
+            <li>
+              Mapping between Fibre Channel N_port IDs (aka FCIDs) and Ethernet
+              MAC addresses.
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>
+            With FCoE, network (IP) and storage (SAN) data traffic can be
+            consolidated using a single network. This consolidation can:
+          </p>
+          <ul>
+            <li>
+              reduce the number of network interface cards required to connect
+              to disparate storage and IP networks
+            </li>
+            <li>reduce the number of cables and switches</li>
+            <li>reduce power and cooling costs</li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="small-computer-system-interface.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="storage-fault-tolerance-and-raid.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

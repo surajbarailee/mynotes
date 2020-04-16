@@ -1,0 +1,471 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>TCP/IP Model</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="osi-model.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcpip-vs-osi.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            TCP-IP Model
+          </h2>
+          <p>
+            It was designed and developed by Department of Defense (DoD) in
+            1960s and is based on standard protocols. It stands for Transmission
+            Control Protocol/Internet Protocol. The&nbsp;<b>TCP/IP model</b
+            >&nbsp;is a concise version of the OSI model. It contains four
+            layers, unlike seven layers in the OSI model. The layers are:
+          </p>
+          <p>
+            <b>Network Access Layer :<br /></b>
+          </p>
+          <p>
+            This layer corresponds to the combination of Data Link Layer and
+            Physical Layer of the OSI model. It looks out for hardware
+            addressing and the protocols present in this layer allows for the
+            physical transmission of data.<br />
+            We just talked about ARP being a protocol of Internet layer, but
+            there is a conflict about declaring it as a protocol of Internet
+            Layer or Network access layer. It is described as residing in layer
+            3, being encapsulated by layer 2 protocols.
+          </p>
+          <p>
+            <b>Internet Layer :<br /></b>
+          </p>
+          <p>
+            This layer parallels the functions of OSI&rsquo;s Network layer. It
+            defines the protocols which are responsible for logical transmission
+            of data over the entire network. The main protocols residing at this
+            layer are :
+          </p>
+          <ol>
+            <li>
+              <b>IP &ndash;</b>stands for Internet Protocol and it is
+              responsible for delivering packets from the source host to the
+              destination host by looking at the IP addresses in the packet
+              headers. IP has 2 versions:<br />
+              IPv4 and IPv6. IPv4 is the one that most of the websites are using
+              currently. But IPv6 is growing as the number of IPv4 addresses are
+              limited in number when compared to the number of users.
+            </li>
+            <li>
+              <b>ICMP &ndash;</b>stands for Internet Control Message Protocol.
+              It is encapsulated within IP datagrams and is responsible for
+              providing hosts with information about network problems.
+            </li>
+            <li>
+              <b>ARP &ndash;</b>stands for Address Resolution Protocol. Its job
+              is to find the hardware address of a host from a known IP address.
+              ARP has several types: Reverse ARP, Proxy ARP, Gratuitous ARP and
+              Inverse ARP.
+            </li>
+          </ol>
+          <p>&nbsp;</p>
+          <p>
+            <b>Host-to-Host Layer :<br /></b>
+          </p>
+          <p>
+            This layer is analogous to the transport layer of the OSI model. It
+            is responsible for end-to-end communication and error-free delivery
+            of data. It shields the upper-layer applications from the
+            complexities of data. The two main protocols present in this layer
+            are :
+          </p>
+          <ol>
+            <li>
+              <b>Transmission Control Protocol (TCP) &ndash;</b>It is known to
+              provide reliable and error-free communication between end systems.
+              It performs sequencing and segmentation of data. It also has
+              acknowledgment feature and controls the flow of the data through
+              flow control mechanism. It is a very effective protocol but has a
+              lot of overhead due to such features. Increased overhead leads to
+              increased cost.
+            </li>
+            <li>
+              <b>User Datagram Protocol (UDP) &ndash;</b>On the other hand does
+              not provide any such features. It is the go-to protocol if your
+              application does not require reliable transport as it is very
+              cost-effective. Unlike TCP, which is connection-oriented protocol,
+              UDP is connectionless.
+            </li>
+          </ol>
+          <p>
+            <b>Process Layer :<br /></b>
+          </p>
+          <p>
+            This layer performs the functions of top three layers of the OSI
+            model: Application, Presentation and Session Layer. It is
+            responsible for node-to-node communication and controls
+            user-interface specifications. Some of the protocols present in this
+            layer are: HTTP, HTTPS, FTP, TFTP, Telnet, SSH, SMTP, SNMP, NTP,
+            DNS, DHCP, NFS, X Window, LPD. Protocols other than those present in
+            the linked article are :
+          </p>
+          <ol>
+            <li>
+              <b>HTTP and HTTPS &ndash;</b>HTTP stands for Hypertext transfer
+              protocol. It is used by the World Wide Web to manage
+              communications between web browsers and servers. HTTPS stands for
+              HTTP-Secure. It is a combination of HTTP with SSL(Secure Socket
+              Layer). It is efficient in cases where the browser need to fill
+              out forms, sign in, authenticate and carry out bank transactions.
+            </li>
+            <li>
+              <b>SSH &ndash;</b>SSH stands for Secure Shell. It is a terminal
+              emulations software similar to Telnet. The reason SSH is more
+              preferred is because of its ability to maintain the encrypted
+              connection. It sets up a secure session over a TCP/IP connection.
+            </li>
+            <li>
+              <b>NTP &ndash;</b>&nbsp;NTP stands for Network Time Protocol. It
+              is used to synchronize the clocks on our computer to one standard
+              time source. It is very useful in situations like bank
+              transactions. Assume the following situation without the presence
+              of NTP. Suppose you carry out a transaction, where your computer
+              reads the time at 2:30 PM while the server records it at 2:28 PM.
+              The server can crash very badly if it&rsquo;s out of sync.
+            </li>
+          </ol>
+          <p>&nbsp;</p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="osi-model.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcpip-vs-osi.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <script type="text/javascript">
+      function scrollWin(value) {
+        document.getElementById("sidenav").scrollTo(0, value);
+      }
+      window.onload = scrollWin(400);
+    </script>
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+</html>

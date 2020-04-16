@@ -1,0 +1,434 @@
+<html>
+  <head>
+    <title>OSI Model</title>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="network-protocols.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcpip-model.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            OSI Model
+          </h2>
+          <p>
+            OSI (Open Systems Interconnection) is a reference model for how
+            applications communicate over a&nbsp;network.
+          </p>
+          <p>
+            A reference model is a conceptual framework for understanding
+            relationships. The purpose of the OSI reference model is to guide
+            vendors and developers so the digital communication products and
+            software programs they create can&nbsp;interoperate, and to
+            facilitate a clear framework that describes the functions of a
+            networking or telecommunication system.
+          </p>
+          <p>
+            The main concept of OSI is that the process of communication between
+            two endpoints in a network can be divided into seven distinct groups
+            of related functions, or layers. Each communicating user or program
+            is on a device that can provide those seven layers of function.
+          </p>
+          <p>
+            In this architecture, each layer serves the layer above it and, in
+            turn, is served by the layer below it. So, in a given message
+            between users, there will be a flow of data down through the layers
+            in the source computer, across the network, and then up through the
+            layers in the receiving computer. Only the application layer, at the
+            top of the stack, doesn&rsquo;t provide services to a higher-level
+            layer.
+          </p>
+          <p><b>7 layers of the OSI model</b></p>
+          <p>The seven Open Systems Interconnection layers are:</p>
+          <p>
+            <b>Application Layer</b>: Enables the user (human or software) to
+            interact with the application or network whenever the user elects to
+            read messages, transfer files or perform other network-related
+            activities. Web browsers and other internet-connected apps, such as
+            Outlook and Skype, use Layer 7 application protocols.
+          </p>
+          <p>
+            <b>Presentation Layer</b>: Translates or formats data for the
+            application layer based on the semantics or syntax that the
+            application accepts. This layer is also able to handle the
+            encryption and decryption that the application layer requires.
+          </p>
+          <p>
+            <b>Session Layer</b>: Sets up, coordinates and terminates
+            conversations between applications. Its services include
+            authentication and reconnection after an interruption. This layer
+            determines how long a system will wait for another application to
+            respond. Examples of session layer protocols include&nbsp;X.225,
+            AppleTalk and Zone Information Protocol (ZIP).
+          </p>
+          <p>
+            <b>Transport Layer</b> :Is responsible for transferring data across
+            a network and provides error-checking mechanisms and data flow
+            controls. It determines how much data to send, where it gets sent
+            and at what rate. The Transmission Control Protocol is the best
+            known example of the transport layer.
+          </p>
+          <p>
+            <b>Network Layer </b>: Primary function is to move data into and
+            through other networks. Network layer protocols accomplish this by
+            packaging data with correct network address information, selecting
+            the appropriate network routes and forwarding the packaged data up
+            the stack to the transport layer.
+          </p>
+          <p>
+            <b>Data-link layer</b> : The&nbsp;protocol layer in a program that
+            handles the moving of data into and out of a physical link in a
+            network. This layer handles problems that occur as a result of bit
+            transmission errors. It ensures that the pace of the data flow
+            doesn&rsquo;t overwhelm the sending and receiving devices. This
+            layer also permits the transmission of data to Layer 3, the network
+            layer, where it is addressed and routed
+          </p>
+          <p>
+            <b>Physical Layer</b>: Transports data using electrical, mechanical
+            or procedural interfaces. This layer is responsible for sending
+            computer bits from one device to another along the network. It
+            determines how physical connections to the network are set up and
+            how bits are represented into predictable signals as they are
+            transmitted either electrically, optically or via radio waves.
+          </p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="network-protocols.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcpip-model.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

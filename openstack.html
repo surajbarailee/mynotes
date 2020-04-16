@@ -1,0 +1,446 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>OpenStack</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="active-link side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="cloud-computing.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="amazon-aws-ec2.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            OpenStack
+          </h2>
+          <p>
+            <b>OpenStack</b> is a set of software tools for building and
+            managing cloud computing platforms for public and private clouds.
+            Backed by some of the biggest companies in software development and
+            hosting, as well as thousands of individual community members, many
+            think that OpenStack is the future of cloud computing. OpenStack is
+            managed by the Openstack Foundation, a non-profit that oversees both
+            development and community-building around the project.
+          </p>
+          <p>
+            OpenStack lets users deploy virtual machines and other instances
+            that handle different tasks for managing a cloud environment on the
+            fly. It makes horizontal scaling easy, which means that tasks that
+            benefit from running concurrently can easily serve more or fewer
+            users on the fly by just spinning up more instances. For example, a
+            mobile application that needs to communicate with a remote server
+            might be able to divide the work of communicating with each user
+            across many different instances, all communicating with one another
+            but scaling quickly and easily as the application gains more users.
+          </p>
+          <p>
+            The cloud is all about providing computing for end users in a remote
+            environment, where the actual software runs as a service on reliable
+            and scalable servers rather than on each end-user's computer. Cloud
+            computing can refer to a lot of different things, but typically the
+            industry talks about running different items "as a
+            service"&mdash;software, platforms, and infrastructure. OpenStack
+            falls into the latter category and is considered Infrastructure as a
+            Service (IaaS). Providing infrastructure means that OpenStack makes
+            it easy for users to quickly add new instance, upon which other
+            cloud components can run. Typically, the infrastructure then runs a
+            "platform" upon which a developer can create software applications
+            that are delivered to the end users.
+          </p>
+          <p>
+            OpenStack is made up of many different moving parts. Because of its
+            open nature, anyone can add additional components to OpenStack to
+            help it to meet their needs. But the OpenStack community has
+            collaboratively identified nine key components that are a part of
+            the "core" of OpenStack, which are distributed as a part of any
+            OpenStack system and officially maintained by the OpenStack
+            community.
+          </p>
+          <ul>
+            <li>
+              <b>Nova</b> is the primary computing engine behind OpenStack.
+            </li>
+            <li>
+              <b>Swift</b> is a storage system for objects and files. Developers
+              can instead refer to a unique identifier referring to the file or
+              piece of information and let OpenStack decide where to store this
+              information.
+            </li>
+            <li>
+              <b>Cinder</b> is a block storage component, which is more
+              analogous to the traditional notion of a computer being able to
+              access specific locations on a disk drive.
+            </li>
+            <li>
+              <b>Neutron</b> provides the networking capability for OpenStack. I
+            </li>
+            <li>
+              <b>Horizon</b> is the dashboard behind OpenStack. It is the only
+              graphical interface to OpenStack,
+            </li>
+            <li><b>Keystone</b> provides identity services for OpenStack.</li>
+            <li>
+              <b>Glance</b> provides image services to OpenStack. In this case,
+              "images" refers to images (or virtual copies) of hard disks.
+            </li>
+            <li>
+              <b>Ceilometer</b> provides telemetry services, which allow the
+              cloud to provide billing services to individual users of the
+              cloud.
+            </li>
+            <li>
+              <b>Heat</b> is the orchestration component of OpenStack, which
+              allows developers to store the requirements of a cloud application
+              in a file that defines what resources are necessary for that
+              application.
+            </li>
+            <li>
+              <em>PackStack</em> is a command line utility that uses Puppet
+              modules to support rapid deployment of OpenStack on existing
+              servers over an&nbsp;SSH&nbsp;connection. PackStack is suitable
+              for deploying both single node proof of concept installations and
+              more complex multi-node installations.
+            </li>
+          </ul>
+          <p>
+            Deployment options are provided either interactively, via the
+            command line, or via a text file containing preconfigured answers to
+            the questions PackStack asks.
+          </p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="cloud-computing.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="amazon-aws-ec2.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(1300);
+  </script>
+</html>

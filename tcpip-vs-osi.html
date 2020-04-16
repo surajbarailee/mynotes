@@ -1,0 +1,441 @@
+<html>
+  <head>
+    <title>TCP/IP vs OSI Model</title>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="tcpip-model.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcp-udp.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            TCP-IP Model vs OSI Model
+          </h2>
+          <table style="width: 553px; margin-left: auto; margin-right: auto;">
+            <tbody>
+              <tr style="height: 46px;">
+                <td style="width: 256.517px; height: 46px;">
+                  <p style="text-align: center;"><strong>TCP/IP</strong></p>
+                </td>
+                <td style="width: 279.483px; height: 46px;">
+                  <p style="text-align: center;"><strong>OSI</strong></p>
+                </td>
+              </tr>
+              <tr style="height: 64px;">
+                <td style="width: 256.517px; height: 64px;">
+                  <p style="text-align: center;">
+                    TCP refers to Transmission Control Protocol.
+                  </p>
+                </td>
+                <td style="width: 279.483px; height: 64px;">
+                  <p style="text-align: center;">
+                    OSI refers to Open Systems Interconnection.
+                  </p>
+                </td>
+              </tr>
+              <tr style="height: 46px;">
+                <td style="width: 256.517px; height: 46px;">
+                  <p style="text-align: center;">TCP/IP has 4 layers.</p>
+                </td>
+                <td style="width: 279.483px; height: 46px;">
+                  <p style="text-align: center;">OSI has 7 layers.</p>
+                </td>
+              </tr>
+              <tr style="height: 46px;">
+                <td style="width: 256.517px; height: 46px;">
+                  <p style="text-align: center;">TCP/IP is more reliable</p>
+                </td>
+                <td style="width: 279.483px; height: 46px;">
+                  <p style="text-align: center;">OSI is less reliable</p>
+                </td>
+              </tr>
+              <tr style="height: 64px;">
+                <td style="width: 256.517px; height: 64px;">
+                  <p style="text-align: center;">
+                    TCP/IP does not have very strict boundaries.
+                  </p>
+                </td>
+                <td style="width: 279.483px; height: 64px;">
+                  <p style="text-align: center;">OSI has strict boundaries</p>
+                </td>
+              </tr>
+              <tr style="height: 46px;">
+                <td style="width: 256.517px; height: 46px;">
+                  <p style="text-align: center;">
+                    TCP/IP follow a horizontal approach.
+                  </p>
+                </td>
+                <td style="width: 279.483px; height: 46px;">
+                  <p style="text-align: center;">
+                    OSI follows a vertical approach.
+                  </p>
+                </td>
+              </tr>
+              <tr style="height: 82px;">
+                <td style="width: 256.517px; height: 82px;">
+                  <p style="text-align: center;">
+                    TCP/IP uses both session and presentation layer in the
+                    application layer itself.
+                  </p>
+                </td>
+                <td style="width: 279.483px; height: 82px;">
+                  <p style="text-align: center;">
+                    OSI uses different session and presentation layers.
+                  </p>
+                </td>
+              </tr>
+              <tr style="height: 72.2px;">
+                <td style="width: 256.517px; height: 72.2px;">
+                  <p style="text-align: center;">
+                    TCP/IP developed protocols then model.
+                  </p>
+                </td>
+                <td style="width: 279.483px; height: 72.2px;">
+                  <p style="text-align: center;">
+                    OSI developed model then protocol.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>&nbsp;</p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="tcpip-model.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="tcp-udp.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

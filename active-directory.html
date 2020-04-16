@@ -1,0 +1,465 @@
+<html>
+  <head>
+    <title>NTFS file system</title>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="storage-fault-tolerance-and-raid.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="schema-master-and-LDAP.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            Active Directory, Tree, Forest and global catalog
+          </h2>
+          <p><b>Active Directory</b></p>
+          <p>
+            Active Directory (AD) is a Microsoft product that consists of
+            several services that run on Windows Server to manage permissions
+            and access to networked resources.
+          </p>
+          <p>
+            Active Directory stores data as objects. An object is a single
+            element, such as a user, group, application or device, such as a
+            printer. Objects are normally defined as either resources -- such as
+            printers or computers -- or security principals -- such as users or
+            groups.
+          </p>
+          <p>
+            Active Directory categorizes objects by name and attributes. For
+            example, the name of a user might include the name string, along
+            with information associated with the user, such as passwords
+            and&nbsp; SSH keys.
+          </p>
+          <p>
+            The main service in Active Directory is Domain Services (AD DS)
+            ,which stores directory information and handles the interaction of
+            the user with the domain. AD DS verifies access when a user signs
+            into a device or attempts to connect to a server over a network. AD
+            DS controls which users have access to each resource. For example,
+            an administrator typically has a different level of access to data
+            than an end user.
+          </p>
+          <p>
+            The Domain is the core unit of logical structure in&nbsp;Active
+            Directory. All objects that share a common directory database and
+            trust relationship with other domain and security policies are known
+            as Domains. Each domain stores information only about the objects
+            that belong to that domain.
+          </p>
+          <p>
+            All security polices and settings, such as administrative rights,
+            security policies, and Access Control &nbsp;Lists (ACLs), do not
+            cross from one domain to another. Thus, a domain administrator has
+            full rights to set policies only within domain they belong to.
+          </p>
+          <p>
+            Domains provide administrative boundaries for objects and manage
+            security for shared resources and a replication unit for objects.
+          </p>
+          <p><b>A Tree</b></p>
+          <p>
+            Trees are collections of one or more domains that allow global
+            resource sharing. A tree may consist of a single domain or multiple
+            domains in a contiguous namespace. A domain added to a tree becomes
+            a child of the tree root domain. The domain to which a child domain
+            is attached is called a parent domain. A child domain can also have
+            its multiple child domains. Child domain uses the name then its
+            parent domain name and gets a unique Domain Name System.
+          </p>
+          <p>
+            For example, if tech.com is the root domain, users can create one or
+            more Child domains to tech.com such as north.tech.com and or
+            south.tech.com. These &ldquo;children&rdquo; may also have child
+            domains created under them, such as sales.north.tech.com.
+          </p>
+          <p>
+            The domains in a tree have two way,&nbsp;Kerberos transitive trust
+            relationships. A Kerberos transitive trust simply means that if
+            Domain A trusts Domain B and Domain B trusts Domain C, then Domain A
+            trusts Domain C. Therefore, a domain joining a tree immediately has
+            trust relationships established with every domain in the tree.
+          </p>
+          <div class="image-div">
+            <img src="./resources/domain-forest.jpg" />
+          </div>
+          <p><b>A Forest</b></p>
+          <p>
+            A forest is a collection of multiple trees that share a common
+            global catalog, directory schema, logical structure, and directory
+            configuration. Forest has automatic two way transitive trust
+            relationships. The very first domain created in the forest is called
+            the forest root domain.
+          </p>
+          <p>
+            Forests allow organizations to group their divisions that use
+            different naming schemes and may need to operate independently. But
+            as an organization, they want to communicate with the entire
+            organization via transitive trusts and share the same schema and
+            configuration container.
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            A <b>Global Catalog</b> server is a domain controller that stores
+            copies of&nbsp;<b>all Active Directory objects in the forest</b>. It
+            stores a complete copy of all objects in the directory of your
+            domain and a partial copy of all objects of all other forest
+            domains. Thus, the Global Catalog allows users and applications to
+            find objects in any domain of the current forest by searching for
+            attributes included to GC.
+          </p>
+          <p>
+            The Global Catalog contains a basic (but incomplete) set of
+            attributes for each forest object in each domain (Partial Attribute
+            Set, PAT). The GC receives data from all the domain directory
+            partitions in the forest, they are copied using the standard AD
+            replication service. Whether the attribute is copied to the Global
+            Catalog is determined by the schema. If necessary, you can configure
+            additional attributes that will be replicated to the GC using the
+            Active Directory Schema snap-in. To add an attribute to the GC, you
+            must select the option&nbsp;<b
+              >Replicate This Attribute To The Global catalog</b
+            >. As a result, the value of
+            the&nbsp;<b>isMemberOfPartialAttributeSet</b>&nbsp;attribute
+            parameter is set to true.
+          </p>
+          <p>&nbsp;</p>
+        </div>
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="storage-fault-tolerance-and-raid.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="schema-master-and-LDAP.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

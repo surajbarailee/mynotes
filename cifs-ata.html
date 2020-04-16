@@ -1,0 +1,441 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <title>CIFS ATA</title>
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="swapdisk-nfs.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="small-computer-system-interface.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            CIFS and ATA
+          </h2>
+
+          <h3>CIFS (Common Internet File System)</h3>
+
+          <p>
+            Common Internet File System (CIFS) is a file-sharing protocol that
+            provides an open and cross-platform mechanism for requesting network
+            server files and services. CIFS is based on the enhanced version of
+            <b>Microsoft&rsquo;s Server Message Block (SMB)</b>
+            protocol for Internet and intranet file sharing.
+          </p>
+          <p>CIFS protocol features include:</p>
+          <p>
+            <b>File access:</b> Supports basic file operations like open, close,
+            read, write and seek.
+          </p>
+          <p>
+            <b>File change notification</b>: When file or directory contents are
+            modified, the server is notified.
+          </p>
+          <p>
+            <b>Extended attributes:</b> Supports the addition of non-file system
+            attributes, like author name, content and description.
+          </p>
+          <p>
+            <b>Batched requests:</b> Facilitates multiple request batching as
+            single messages to reduce round trip latencies.
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            <b>Samba </b>is a free software implementation of the CIFS/SMB
+            networking protocols that allows for the file transfer between Unix
+            and Windows world.
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h1><b>SCSI, ATA and SATA</b></h1>
+          <p>
+            <br />
+            Advanced Technology Attachment (ATA) is a standard physical
+            interface for connecting storage devices within a computer. ATA
+            allows hard disks and CD-ROMs to be internally connected to the
+            motherboard and perform basic input/output functions
+          </p>
+          <p>
+            <b>PATA </b>is an acronym for Parallel Advanced Technology
+            Attachment, often shortened to Parallel ATA. Originally known as IDE
+            <b>(Integrated Drive Electronics)</b> it was the connection of
+            choice not only for hard disks, but for floppy and optical (CD/DVD)
+            disk drives as well.
+          </p>
+
+          <p>
+            Parallel refers to the fact that is sent
+            <b>16 bits at a time</b> through a single 16-bit connection, which
+            is used for data traveling in both directions.Current PATA
+            interfaces can transfer at up to <b>133 megabytes per second</b>.
+            Most popular interface for hard disk drives and CD drives in
+            mainstream systems for many years.PATA is <b> Half Duplex</b>,
+            meaning transmit and receive cannot occur at the same time.
+          </p>
+
+          <p>
+            <b>SATA </b>is an acronym for<b>
+              Serial Advanced Technology Attachment. </b
+            >SATA is a new method of transferring data between the drive and the
+            motherboard (or interface board) that uses a high-speed serial bus
+            instead of a lower-speed parallel one. Another feature you get with
+            SATA is the ability to remove or attach drives
+            <b>without having to shut the computer down. </b>SATA interfaces can
+            transmit up to<b> 150, 300, or 600, 3000 megabytes per second. </b
+            >SATA is<b> full duplex,</b>
+          </p>
+          <p><b>&nbsp;</b></p>
+          <p><b>&nbsp;</b></p>
+          <p><b>Difference:</b></p>
+          <p>
+            <b>1. </b>SATA is the current standard while PATA is already
+            obsolete.<br /><b>2.</b>SATA is much faster than PATA.<br />
+            <b>3.</b>SATA is equipped with NCQ while PATA isn&rsquo;t.(<b
+              >Native Command Queuing</b
+            >
+            (<b>NCQ</b>) is an extension of the Serial ATA protocol allowing
+            hard disk to internally optimize the order in which received read
+            and write commands are executed).<br />
+            <b>4.</b>SATA drives are hot pluggable while PATA drives are not.<br />
+            <b>5.</b>SATA provides an external interface while PATA does not.<br />
+            <b>6.</b>SATA uses smaller cables than PATA.<br />
+            <b>7.</b>PATA uses a slave/master arrangement while SATA does not.
+          </p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="swapdisk-nfs.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="small-computer-system-interface.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

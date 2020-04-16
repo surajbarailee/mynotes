@@ -1,0 +1,491 @@
+<html>
+  <head>
+    <title>NTFS file system</title>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Schema Master and LDAP</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+     <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="active-directory.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="network-protocols.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">Schema Master</h2>
+          <p>
+            The schema is a framework of definitions that establishes the type
+            of objects available to Active Directory. The objects in the schema
+            define the structure and identity of Active Directory for a forest.
+            Objects can only be added, modified, or removed under strictly
+            controlled circumstances. The Schema Master is the only domain
+            controller in the entire forest can update the schema, which is then
+            replicated to other domain controllers in the forest. The Schema
+            Master role can be transferred to another domain controller through
+            the Active Directory Schema Master snap-in.
+          </p>
+
+          <p>
+            All databases have a schema which is a formal definition (set of
+            rules) which govern the database structure and types of objects and
+            attributes which can be contained in the database. The schema
+            contains a list of all classes and attributes in the forest.
+          </p>
+          <p>The schema keeps track of:</p>
+          <p>* Classes</p>
+          <p>* Class attributes</p>
+          <p>
+            * Class relationships such as subclasses (Child classes that inherit
+            attributes from the super class) and super classes (Parent classes).
+          </p>
+          <p>
+            * Object relationships such as what objects are contained by other
+            objects or what objects contain other objects.
+          </p>
+          <p>
+            There is a class Schema object for each class in the Active
+            Directory database. For each object attribute in the database, there
+            is an attributeSchema object.
+          </p>
+          <p>
+            Schema Master is A FSMO (Flexible Single-Master Operation) role held
+            by single DC (Domain Controller)in forest
+          </p>
+
+          <p><h2>Light Weight Directory Access Protocol</h2></p>
+          <p>
+            LDAP (Lightweight Directory Access Protocol) is a
+            software&nbsp;protocol for enabling anyone to locate organizations,
+            individuals, and other resources such as files and devices in a
+            network, whether on the public&nbsp;internet&nbsp;or on a corporate
+            intranet . LDAP is a "lightweight" (smaller amount of code) version
+            of Directory Access Protocol (DAP),&nbsp;
+          </p>
+          <p>
+            A common use of LDAP is to provide a central place to store
+            usernames and passwords. This allows many different applications and
+            services to connect to the LDAP server to validate users
+          </p>
+          <p>&nbsp;</p>
+          <h3>Directory structure</h3>
+          <p>
+            The protocol provides an interface with directories that follow the
+            1993 edition of the &nbsp;X.500 model:
+          </p>
+          <ul>
+            <li>An entry consists of a set of attributes.</li>
+            <li>
+              An attribute has a name (an attribute type</em
+              >or&nbsp;attribute description) and one or more values.
+              The attributes are defined in a&nbsp;schema&nbsp;(see
+              below).
+            </li>
+            <li>
+              Each entry has a unique identifier: its&nbsp;
+                Distinguished Name
+              (DN). This consists of its
+                Relative Distinguished Name
+              (RDN), constructed from some attribute(s) in the entry,
+              followed by the parent entry's DN. Think of the DN as the&nbsp;
+              full file path and the RDN as its relative filename in its parent
+              folder (e.g. if&nbsp;/foo/bar/myfile.txt&nbsp;were the DN,
+              then&nbsp;txt&nbsp;would be the RDN).
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>Operations:</p>
+          <h3>Add</h3>
+          <p>
+            The ADD operation inserts a new entry into the directory-server
+            database.<a
+              href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol#cite_note-12"
+              ><sup>[12]</sup></a
+            >&nbsp;If the distinguished name in the add request already exists
+            in the directory, then the server will not add a duplicate entry but
+            will set the result code in the add result to decimal 68,
+            "entryAlreadyExists".
+          </p>
+          <h3>Bind (authenticate)</h3>
+          <p>
+            When an LDAP session is created, that is, when an LDAP client
+            connects to the server, the&nbsp;<strong
+              >authentication state</strong
+            >&nbsp;of the session is set to anonymous. The BIND operation
+            establishes the authentication state for a session.
+          </p>
+          <p>&nbsp;</p>
+          <h3>Delete</h3>
+          <p>
+            To delete an entry, an LDAP client transmits a properly formed
+            delete request to the server.
+          </p>
+          <p><sup>&nbsp;</sup></p>
+          <h3>Search and Compare</h3>
+          <p>
+            The Search operation is used to both search for and read entries.
+            Its parameters are:
+          </p>
+          <p><strong>baseObject&nbsp;</strong></p>
+          <p>
+            The name of the base object entry (or possibly the root) relative to
+            which the search is to be performed.
+          </p>
+          <p><strong>scope&nbsp;</strong></p>
+          <p>What elements below the baseObject to search.</p>
+          <p><strong>filter&nbsp;</strong></p>
+          <p>Criteria to use in selecting elements within scope</p>
+          <p><strong>derefAliases&nbsp;</strong></p>
+          <p>
+            Whether and how to follow alias entries (entries that refer to other
+            entries),
+          </p>
+          <p><strong>attributes&nbsp;</strong></p>
+          <p>Which attributes to return in result entries.</p>
+          <p><strong>sizeLimit, timeLimit&nbsp;</strong></p>
+          <p>
+            Maximum number of entries to return, and maximum time to allow
+            search to run. These values, however, cannot override any
+            restrictions the server places on size limit and time limit.
+          </p>
+          <p><strong>typesOnly&nbsp;</strong></p>
+          <p>Return attribute types only, not attribute values.</p>
+        </div>
+        <div style="width: 100%; height: 50p; border-top: 1px dotted grey;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="active-directory.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="network-protocols.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side">
+        
+      </div>
+    </div>
+    <!--Description div-->
+  <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

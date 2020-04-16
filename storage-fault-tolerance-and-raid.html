@@ -1,0 +1,541 @@
+<html>
+  <head>
+    <script src="./javascript files/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Storage Fault Tolerance and RAID</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="contact.html" style="padding-right: 50px;">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+    <span
+      id="sandwich"
+      style="font-size: 30px; cursor: pointer; top: 0; position: sticky;"
+      onclick="openDiv()"
+      >&#9776;</span
+    >
+
+    <!--This is the main body div wrapper-->
+    <div class="container">
+      <div class="left-side" id="sidenav">
+        <div class="side-links">
+          <a href="network-architecture.html">
+            Network Architecture
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="peer-to-peer.html">
+            Peer to Peer
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="client-server.html">
+            Client-Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-client-server.html">
+            Types of Client Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="upsizing-downsizing-integration.html">
+            Upsizing Downsizing and Integration
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="server-and-its-types.html">
+            Server and server types
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="blade-rack-tower.html">
+            Blade Rack and Tower Servers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-operating-system.html">
+            Network Operating System
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="emerging-server-hardware-technologies.html">
+            Emerging Server Hardware Tech
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mainframes.html">
+            Mainframe Computers
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="filesystem.html">
+            Filesystems
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="file-access-methods.html">
+            File Access Methods
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fat-file-system.html">
+            FAT file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ntfs-file-system.html">
+            NTFS file system
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ext3-ext4-zfs.html">
+            Ext3 Ext4 and ZFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="swapdisk-nfs.html">
+            Swap Disk and NFS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cifs-ata.html">
+            CIFS and ATA
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="small-computer-system-interface.html">
+            Small Computer System Interface
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="storage-area-network.html">
+            Storage Area Network
+          </a>
+        </div>
+        <div class="side-links active-link">
+          <a href="storage-fault-tolerance-and-raid.html">
+            Fault Tolerance and RAID
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="active-directory.html">
+            Active Directory
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="schema-master-and-LDAP.html">
+            Schema Master and LDAP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-protocols.html">
+            Network Protocols
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="osi-model.html">
+            OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-model.html">
+            TCP/IP model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcpip-vs-osi.html">
+            TCP/IP vs OSI model
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="tcp-udp.html">
+            TCP and UDP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dhcp.html">
+            DHCP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="domain-name-server.html">
+            Domain Name SeRver
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fileserver-and-webserver.html">
+            File Server and Web Server
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="webhosting.html">
+            Webhosting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-monitoring.html">
+            Network Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-configuration-performance-security.html">
+            Fault Configuration Network and Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="account-monitoring.html">
+            Account Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="fault-monitoring.html">
+            Fault Monitoring
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="snmp.html">
+            SNMP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="startup-automation-scheduling.html">
+            Startup Automation and Scheduling
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="shell-scripting.html">
+            Shell Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="drp.html">
+            DRP
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="draas.html">
+            DraaS
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="backup.html">
+            Backup
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="virtualization.html">
+            Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="types-of-virtualization.html">
+            Types of Virtualization
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xen-and-kvm.html">
+            Xen and Kvm
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="cloud-computing.html">
+            Cloud Computing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="openstack.html">
+            OpenStack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="amazon-aws-ec2.html">
+            Amazon EC2
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="network-security.html">
+            Network Security
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="sql-injection.html">
+            SQL Injection
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="xss-scripting.html">
+            XSS Scripting
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="ip-spoofing.html">
+            IP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="arp-spoofing.html">
+            ARP Spoofing
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="dos-attack.html">
+            DOS Attack
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="mitm-and-hijacking.html">
+            Man In The Middle and Hijacking
+          </a>
+        </div>
+        <div class="side-links">
+          <a href="trojan-worms-virus.html">
+            Trojan Worms and Virus
+          </a>
+        </div>
+      </div>
+
+      <!--this is the discription part of body -->
+      <div class="mid-part">
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="storage-area-network.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="active-directory.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+
+        <div class="card">
+          <h2 style="text-align: center;">
+            Fault Tolerance and RAID
+          </h2>
+          <p><b>Disk Storage Fault tolerance</b></p>
+          <p>
+            Typically, disk fault tolerance is achieved through disk management
+            technologies such as mirroring, striping, and duplexing drives and
+            provides some level of data protection. As with other methods of
+            fault tolerance, disk fault tolerance means that a disk system is
+            able to recover from an error condition of some kind.
+          </p>
+          <p>
+            The following methods provide fault tolerance for hard-disk systems:
+          </p>
+          <ul>
+            <li>
+              Mirroring :Mirroring a drive means designating a hard-disk drive
+              in the computer as a mirror or duplicate to another, specified
+              drive. The two drives are attached to a single disk controller
+            </li>
+            <li>
+              Duplexing :As with mirroring, duplexing also saves data to a
+              mirror drive. In fact, the only major difference between duplexing
+              and mirroring is that duplexing uses two separate disk controllers
+              (one for each disk).
+            </li>
+            <li>
+              Data striping:From a performance point of view, writing data to a
+              single drive is slow. When three drives are configured as a single
+              volume, information must fill the first drive before it can go to
+              the second and fill the second before filling the third. If you
+              configure that volume to use disk striping, you will see a
+              definite performance gain. Disk striping breaks up the data to be
+              saved to disk into small portions and sequentially writes the
+              portions to all disks simultaneously in small areas called
+              stripes. These stripes maximize performance because all of the
+              read/write heads are working constantly.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Redundant Array of Independent (or Inexpensive) Disks (RAID)
+            </li>
+          </ul>
+
+          <p>
+            <b>RAID (Redundant Array of Independent/Inexpensive Disks)</b>
+          </p>
+          <p>
+            RAID&nbsp; is a data storage virtualization technology that combines
+            multiple physical disk drive components into one or more logical
+            units for the purposes of data redundancy, performance improvement,
+            or both.
+          </p>
+          <p>
+            Data is distributed across the drives in one of several ways,
+            referred to as RAID levels, depending on the required level of
+            redundancy and performance. The different schemes, or data
+            distribution layouts, are named by the word "RAID" followed by a
+            number, for example RAID&nbsp;0 or RAID&nbsp;1. Each scheme, or RAID
+            level, provides a different balance among the key goals:
+            reliability, availability, performance, and capacity. RAID levels
+            greater than RAID&nbsp;0 provide protection against unrecoverable
+            sector read errors, as well as against failures of whole physical
+            drives
+          </p>
+          <h3><b>RAID 0: Striping</b></h3>
+          <p>
+            Requiring a minimum of two disks, RAID 0 splits files and stripes
+            the data across two disks or more, treating the striped disks as a
+            single partition. Because multiple hard drives are reading and
+            writing parts of the same file at the same time, throughput is
+            generally faster.
+          </p>
+          <p>
+            RAID 0 does not provide redundancy or fault tolerance. Since it
+            treats multiple disks as a single partition, if even one drive
+            fails, the striped file is unreadable. This is not an insurmountable
+            problem in video streaming or computer gaming environments where
+            performance matters the most, and the source file will still exist
+            even if the stream fails. It is a problem in high availability
+            environments.
+          </p>
+          <div class="image-div" style="height: 250px; width: 250px;">
+            <img
+              src="./resources/raid0.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+          <h3><b>RAID 1: Mirroring</b></h3>
+          <p>
+            RAID 1 requires a minimum of two disks to work, and provides data
+            redundancy and failover. It reads and writes the exact same data to
+            each disk. Should a mirrored disk fail, the file exists in its
+            entirety on the functioning disk. Once IT replaces the failed desk,
+            the RAID system will automatically mirror back to the replacement
+            drive. RAID 1 also increases read performance.It does take up more
+            usable capacity on drives, but is an economical failover process on
+            application servers.
+          </p>
+          <div class="image-div" style="height: 250px; width: 250px;">
+            <img
+              src="./resources/raid1.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+          <h3>
+            <b>RAID 2<br /></b>
+          </h3>
+          <p>
+            At this level individual bits are striped across multiple disks.
+            Multiple redundancy drives in this configuration are dedicated to
+            storing error correcting code(ECC) , a method of error correction
+            found built in to modern hard drives, without the use of RAID . If
+            any data drive fails, the data on that drive can be rebuilt from ECC
+            data stored on the redundancy drive. Two of the better known
+            configurations included an array of 10 data disks and 4 ECC disks
+            and an array of 32 data disks and 7 ECC disks. Due to requirements
+            that are incredibly difficult and expensive to implement, such as
+            specialized controller hardware to synchronize the spindles of all
+            disks in the array, this is not a commonly used implementation.
+          </p>
+          <div class="image-div" style="height: 250px; width: 300px;">
+            <img
+              src="./resources/raid2.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+          <h3>
+            <b>RAID 3 <br /></b>
+          </h3>
+          <p>
+            At this level, data is striped across multiple hard drives using a
+            parity drive (similar to RAID 2). The main difference is that the
+            data is striped in bytes, not bits as in RAID 2. This configuration
+            is popular because more data is written and read in one operation,
+            increasing overall disk performance.
+          </p>
+          <div class="image-div" style="height: 250px; width: 250px;">
+            <img
+              src="./resources/raid3.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+
+          <h3>
+            <b>RAID 4<br /></b>
+          </h3>
+          <p>
+            This level is similar to RAID 2 and 3 (striping with parity drive),
+            except that data is striped in blocks, which facilitates fast reads
+            from one drive. RAID 4 is the same as RAID 0, with the addition of a
+            parity drive.
+          </p>
+          <div class="image-div" style="height: 250px; width: 250px;">
+            <img
+              src="./resources/raid4.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+          <h3><b>Raid 5: Striping with Parity</b></h3>
+          <p>
+            This RAID level distributes striping and parity at a block level.
+            Parity is raw binary data. The RAID system calculates its values to
+            create a parity block, which the system uses to recover striped data
+            from a failed drive. Most RAID systems with parity functions store
+            parity blocks on the disks in the array. (Some RAID systems dedicate
+            a disk to parity calculations, but these are rare.)
+          </p>
+          <p>
+            RAID 5 stores parity blocks on striped disks. Each stripe has its
+            own dedicated parity block. RAID 5 can withstand the loss of one
+            disk in the array.
+          </p>
+          <p>
+            RAID 5 combines the performance of RAID 0 with the redundancy of
+            RAID 1, but takes up a lot of storage space to do it &ndash; about
+            one third of usable capacity.
+          </p>
+          <p>
+            This level increases write performance since all drives in the array
+            simultaneously serve write requests. However, overall disk
+            performance can suffer from write amplification, since even minor
+            changes to the stripes require multiple steps and recalculations.
+          </p>
+          <div class="image-div" style="height: 250px; width: 250px;">
+            <img
+              src="./resources/raid5.jpg"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+        </div>
+        <div style="width: 100%; height: 50px;">
+          <button style="margin-top: 20px; margin-left: 5px;">
+            <a href="storage-area-network.html">&lt;&lt Previous</a>
+          </button>
+          <button style="margin-top: 20px; float: right; margin-right: 5px;">
+            <a href="active-directory.html">Next &gt;&gt;</a>
+          </button>
+        </div>
+      </div>
+      <!--
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+      -->
+      <!--this is the right part of the div-->
+      <div class="right-side"></div>
+    </div>
+    <!--Description div-->
+    <footer>
+      <span
+        >&copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script></span
+      >
+    </footer>
+  </body>
+  <script type="text/javascript">
+    function scrollWin(value) {
+      document.getElementById("sidenav").scrollTo(0, value);
+      console.log("checl");
+    }
+    window.onload = scrollWin(400);
+  </script>
+</html>

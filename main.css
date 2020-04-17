@@ -45,6 +45,7 @@ button:hover {
   background-color: #f3f3f3;
   flex: 1;
   margin-top: 5px;
+  max-width: 250px;
 }
 .mid-part {
   flex: 3;
@@ -93,6 +94,7 @@ a:active {
   margin: 0 auto;
   background-color: white;
   border: 1px solid grey;
+  max-width: 100%;
 }
 img {
   width: 500px;
@@ -109,8 +111,20 @@ td {
   .left-side {
     display: none;
   }
+  img {
+    width: 100%;
+  }
+  .image-div {
+    min-width: 100%;
+  }
   .mid-part {
     width: 100%;
+  }
+  .image-div {
+    max-width: 250px;
+  }
+  .card {
+    font-size: 14px;
   }
   .right-side {
     display: none;

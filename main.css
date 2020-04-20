@@ -107,6 +107,7 @@ td {
   border: 1px solid black;
   text-align: center;
 }
+
 @media only screen and (max-width: 800px) {
   .left-side {
     display: none;
@@ -115,14 +116,12 @@ td {
     width: 100%;
   }
   .image-div {
-    min-width: 100%;
+    max-width: 250px;
   }
   .mid-part {
     width: 100%;
   }
-  .image-div {
-    max-width: 250px;
-  }
+
   .card {
     font-size: 14px;
   }
@@ -130,9 +129,7 @@ td {
     display: none;
   }
 }
-#sidenav {
-  display: block;
-}
+
 /*this is contact form css*/
 
 #contact input[type="text"],

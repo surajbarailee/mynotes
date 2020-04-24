@@ -13,17 +13,24 @@
     </div>
     <span
       id="sandwich"
-      style="cursor: pointer; top: 0; position: sticky; padding-top: 25px;"
+      style="padding-top: 25px;"
       onclick="openDiv()"
       ><img
         src="./resources/menu.png"
         alt="menu icon"
-        style="width: 40px; height: 40px; margin-top: 10px;"
+        style="
+          width: 40px;
+          height: 40px;
+          margin-top: 10px;
+          cursor: pointer;
+          top: 0;
+          position: sticky;
+        "
     /></span>
 
     <!--This is the main body div wrapper-->
     <div class="container">
-      <div class="left-side" id="sidenav">
+      <div class="left-side" id="sidenav" style="display:block">
         <div class="side-links">
           <a href="network-architecture.html">
             Network Architecture
@@ -485,7 +492,7 @@
               devices into each separate server.
             </li>
           </ul>
-          <table style="height: 262px; width: 612.667px; border:1px solid black;margin:0 auto;">
+          <table style="height: 262px; ; border:1px solid black;margin:0 auto;overflow-x:auto">
             <tbody>
             <tr>
             <td style="width: 172px;">Server Type</td>

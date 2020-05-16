@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NTFS file system</title>
-    
+
     <script src="./javascript files/main.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
@@ -12,13 +13,14 @@
       <span class="logo" onclick="location.href = 'index.html';"
         >Study Notes</span
       >
-      <a href="contact.html" style="text-decoration: underline;padding-right: 50px;">Contact</a>
-     <a href="index.html">Home</a>
+      <a
+        href="contact.html"
+        style="text-decoration: underline; padding-right: 50px;"
+        >Contact</a
+      >
+      <a href="index.html">Home</a>
     </div>
-    <span
-      id="sandwich"
-      style="padding-top: 25px;"
-      onclick="openDiv()"
+    <span id="sandwich" style="padding-top: 25px;" onclick="openDiv()"
       ><img
         src="./resources/menu.png"
         alt="menu icon"
@@ -135,7 +137,7 @@
             Fault Tolerance and RAID
           </a>
         </div>
-        <div class="side-links ">
+        <div class="side-links">
           <a href="active-directory.html">
             Active Directory
           </a>
@@ -314,25 +316,50 @@
 
       <!--this is the discription part of body -->
       <div class="mid-part">
-        <div class="card" ">
-            <div >  
-                <form id="contact" action="https://formspree.io/mjveldze" method="post">
-                  <h3>Contact Form</h3>
-                  <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" name="name" required autofocus>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Email Address " type="email" tabindex="2" name="_replyto" required>
-                  </fieldset>
-                  <fieldset>
-                    <textarea placeholder="Your Message..." tabindex="5" name="message" required></textarea>
-                  </fieldset>
-                  <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                  
-                </form>
-              </div>
-         
+        <div class="card">
+          <form
+            id="contact"
+            action="https://formspree.io/mjveldze"
+            method="post"
+          >
+            <h3 style="text-align: center; margin-bottom: 20px;">
+              Contact Form
+            </h3>
+            <fieldset>
+              <input
+                placeholder="Your name"
+                type="text"
+                name="name"
+                required
+                autofocus
+              />
+            </fieldset>
+            <fieldset>
+              <input
+                placeholder="Your Email Address "
+                type="email"
+                name="_replyto"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <textarea
+                placeholder="Your Message..."
+                name="message"
+                required
+              ></textarea>
+            </fieldset>
+            <fieldset>
+              <button
+                name="submit"
+                type="submit"
+                id="contact-submit"
+                data-submit="...Sending"
+              >
+                Submit
+              </button>
+            </fieldset>
+          </form>
         </div>
         <div style="width: 100%; height: 50px;"></div>
       </div>
@@ -349,7 +376,7 @@
       <div class="right-side"></div>
     </div>
     <!--Description div-->
-  <footer>
+    <footer>
       <span
         >&copy;
         <script type="text/javascript">

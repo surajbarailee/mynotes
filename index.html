@@ -2,16 +2,32 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>System Admin notes</title>
+    <title>System Admin Notes</title>
     <script src="./javascript files/main.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
 
   <body>
     <div class="navbar">
+      <span class="logo" onclick="location.href = 'index.html';"
+        >Study Notes</span
+      >
       <a href="contact.html" style="padding-right: 50px;">Contact</a>
       <a href="index.html" style="text-decoration: underline;">Home</a>
     </div>
+    <span id="sandwich" style="padding-top: 25px;" onclick="openDiv()"
+      ><img
+        src="./resources/menu.png"
+        alt="menu icon"
+        style="
+          width: 40px;
+          height: 40px;
+          margin-top: 10px;
+          cursor: pointer;
+          top: 0;
+          position: sticky;
+        "
+    /></span>
 
     <!--This is the main body div wrapper-->
     <div class="container">
@@ -347,10 +363,4 @@
       </script>
     </footer>
   </body>
-  <script type="text/javascript">
-    function scrollWin(value) {
-      document.getElementById("sidenav").scrollTo(0, value);
-    }
-    window.onload = scrollWin(400);
-  </script>
 </html>

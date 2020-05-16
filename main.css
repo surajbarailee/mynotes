@@ -21,6 +21,13 @@ button:hover {
   background-color: rgb(87, 87, 253);
   box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
+.logo {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+  margin-left: 80px;
+  cursor: pointer;
+}
 .navbar > a {
   float: right;
   display: block;
@@ -37,6 +44,9 @@ button:hover {
   height: 500px;
   margin-top: 10px;
   overflow: auto;
+  margin-bottom: 5px;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
 }
 .active-link {
   background-color: rgb(177, 177, 177);
